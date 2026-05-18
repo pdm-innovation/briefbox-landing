@@ -35,19 +35,19 @@ const features = [
 
 const audiences = [
   {
-    emoji: "👴👵",
-    title: "Senioren",
-    desc: "Behörden- und Versicherungsbriefe endlich verständlich – ohne fremde Hilfe.",
+    emoji: "💼",
+    title: "Selbstständige",
+    desc: "Rechnungen, Bescheide, Behördenbriefe: BriefBox hält den Überblick, damit du es nicht musst.",
   },
   {
-    emoji: "🌍",
-    title: "Menschen mit Migrationshintergrund",
-    desc: "Behördendeutsch? BriefBox erklärt es einfach und hilft bei der Antwort.",
+    emoji: "🏢",
+    title: "Kleine Unternehmen",
+    desc: "Weniger Zeit mit Papierkram, mehr Zeit fürs Kerngeschäft. BriefBox bearbeitet Post schnell und zuverlässig.",
   },
   {
-    emoji: "😰",
-    title: "Alle, die Post aufschieben",
-    desc: "Wenn sich der Briefstapel stapelt – BriefBox bringt Ordnung und Kontrolle.",
+    emoji: "🧑‍💻",
+    title: "Freiberufler",
+    desc: "Als Freelancer trägst du alles allein. BriefBox nimmt dir die Post-Last ab – von der Analyse bis zur Antwort.",
   },
 ];
 
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">
           <LogoText height={20} />
           <a
-            href="https://apps.apple.com"
+            href="https://apps.apple.com/app/briefbox"
             className="text-sm font-semibold px-4 py-2 rounded-xl transition-colors"
             style={{
               backgroundColor: "#2563EB",
@@ -127,15 +127,15 @@ export default function Home() {
           {/* App Store CTA */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://apps.apple.com"
+              href="https://apps.apple.com/app/briefbox"
               className="inline-flex items-center gap-3 font-semibold px-6 py-3.5 rounded-2xl transition-all hover:scale-[1.02] active:scale-[0.98]"
               style={{
                 backgroundColor: "#0F172A",
                 color: "#FFFFFF",
               }}
             >
-              <svg className="w-5 h-5" viewBox="0 0 814 1000" fill="currentColor">
-                <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 376.7 0 248.1 0 124.8 0 56.5 24.3 20.1 75.4 20.1c34.7 0 66.5 18.5 93.6 18.5 27.1 0 62.2-20.7 100.7-20.7 26 0 111.1 2.6 170.7 79.6l-32.1 23.4zm-173.8-67.7c-4.5 0-9 .6-13.5.6-.6-6.4-.6-13.5-.6-20.7 0-63.5 36.8-131.5 77.5-165.2 43.3-36.2 113.3-64 168.8-64 3.2 0 6.4 0 9.6.6.6 6.4.6 13.5.6 20.1 0 65.3-33.4 130.6-72.4 165.2-38.4 34-103.7 63.4-170 63.4z" />
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
               </svg>
               Im App Store laden
             </a>
@@ -400,6 +400,15 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+          <p
+            className="mt-12 text-center text-base leading-relaxed max-w-2xl mx-auto"
+            style={{ color: "#475569" }}
+          >
+            Als Inhaber oder Geschäftsführerin bearbeitest du Post oft noch selbst. BriefBox
+            reduziert den Aufwand, schafft sofortige Klarheit über Fristen und beschleunigt
+            deine Antworten – damit du dich auf das Wesentliche konzentrieren kannst.
+          </p>
         </div>
       </section>
 
@@ -425,12 +434,12 @@ export default function Home() {
             Keine Registrierung. Kein Abo. Einfach laden und loslegen.
           </p>
           <a
-            href="https://apps.apple.com"
+            href="https://apps.apple.com/app/briefbox"
             className="inline-flex items-center gap-3 font-semibold px-6 py-3.5 rounded-2xl transition-all hover:scale-[1.02] active:scale-[0.98]"
             style={{ backgroundColor: "#FFFFFF", color: "#1D4ED8" }}
           >
-            <svg className="w-5 h-5" viewBox="0 0 814 1000" fill="currentColor">
-              <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 376.7 0 248.1 0 124.8 0 56.5 24.3 20.1 75.4 20.1c34.7 0 66.5 18.5 93.6 18.5 27.1 0 62.2-20.7 100.7-20.7 26 0 111.1 2.6 170.7 79.6l-32.1 23.4zm-173.8-67.7c-4.5 0-9 .6-13.5.6-.6-6.4-.6-13.5-.6-20.7 0-63.5 36.8-131.5 77.5-165.2 43.3-36.2 113.3-64 168.8-64 3.2 0 6.4 0 9.6.6.6 6.4.6 13.5.6 20.1 0 65.3-33.4 130.6-72.4 165.2-38.4 34-103.7 63.4-170 63.4z" />
+            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
             </svg>
             Im App Store laden
           </a>

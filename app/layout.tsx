@@ -12,10 +12,25 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "BriefBox – Dein smarter Briefassistent",
+  metadataBase: new URL("https://briefbox.ai"),
+  title: "BriefBox – Briefe scannen, verstehen & beantworten | iPhone App",
   description:
-    "BriefBox scannt deine Briefe, erklärt sie verständlich und hilft dir mit Antworten – direkt auf deinem iPhone. Nie wieder wichtige Post übersehen.",
-  keywords: ["Briefe scannen", "Briefassistent", "Dokumente verstehen", "iOS App", "BriefBox"],
+    "BriefBox scannt deine Post, erklärt Behörden- und Versicherungsbriefe verständlich und hilft dir mit fertigen Antworten – direkt auf deinem iPhone. Kostenlos im App Store.",
+  keywords: [
+    "Briefe scannen App",
+    "Briefassistent iPhone",
+    "Behördenpost verstehen",
+    "Dokumente übersetzen App",
+    "Versicherungsbrief erklären",
+    "Brief KI Analyse",
+    "Fristen erkennen App",
+    "iOS Briefassistent",
+    "BriefBox",
+    "Post App",
+  ],
+  alternates: {
+    canonical: "https://briefbox.ai",
+  },
   icons: {
     icon: [
       { url: "/icon.svg", type: "image/svg+xml" },
@@ -24,12 +39,21 @@ export const metadata: Metadata = {
     apple: "/app-icon.png",
   },
   openGraph: {
-    title: "BriefBox – Dein smarter Briefassistent",
+    title: "BriefBox – Briefe scannen, verstehen & beantworten",
     description:
-      "BriefBox scannt deine Briefe, erklärt sie verständlich und hilft dir mit Antworten – direkt auf deinem iPhone.",
+      "BriefBox scannt deine Post, erklärt sie verständlich und hilft dir mit fertigen Antworten – direkt auf deinem iPhone. Kostenlos im App Store.",
     type: "website",
     locale: "de_DE",
-    images: [{ url: "/app-icon.png" }],
+    url: "https://briefbox.ai",
+    siteName: "BriefBox",
+    images: [
+      {
+        url: "/app-icon.png",
+        width: 512,
+        height: 512,
+        alt: "BriefBox – Smarter Briefassistent für iPhone",
+      },
+    ],
   },
 };
 

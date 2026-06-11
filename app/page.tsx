@@ -24,7 +24,7 @@ const jsonLd = {
     sameAs: ["https://www.instagram.com/briefbox.ai"],
     contactPoint: {
       "@type": "ContactPoint",
-      email: "support@briefbox.ai",
+      email: "info@briefbox.ai",
       contactType: "customer support",
     },
   },
@@ -508,7 +508,7 @@ export default function Home() {
               Support
             </Link>
             <a
-              href="mailto:support@briefbox.ai"
+              href="mailto:info@briefbox.ai"
               className="transition-colors hover:text-[#0F172A]"
             >
               Kontakt

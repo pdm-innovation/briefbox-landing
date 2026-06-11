@@ -99,12 +99,12 @@ export default function Support() {
             Wir antworten innerhalb von 1–2 Werktagen auf Deutsch.
           </p>
           <a
-            href="mailto:support@briefbox.ai"
+            href="mailto:info@briefbox.ai"
             className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-2xl transition-all hover:scale-[1.02] text-sm"
             style={{ backgroundColor: "#FFFFFF", color: "#1D4ED8" }}
           >
             <span>✉️</span>
-            support@briefbox.ai
+            info@briefbox.ai
           </a>
         </div>
 
@@ -156,7 +156,7 @@ export default function Support() {
             Deine Frage ist nicht dabei?
           </p>
           <a
-            href="mailto:support@briefbox.ai"
+            href="mailto:info@briefbox.ai"
             className="font-semibold transition-colors"
             style={{ color: "#2563EB" }}
           >
